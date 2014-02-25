@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FDEE61418BD3CED009F4F90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FDEE61318BD3CED009F4F90 /* Foundation.framework */; };
+		0FDEE61618BD3CED009F4F90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FDEE61518BD3CED009F4F90 /* CoreGraphics.framework */; };
+		0FDEE61818BD3CED009F4F90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FDEE61718BD3CED009F4F90 /* UIKit.framework */; };
+		0FDEE61E18BD3CED009F4F90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FDEE61C18BD3CED009F4F90 /* InfoPlist.strings */; };
+		0FDEE62018BD3CED009F4F90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDEE61F18BD3CED009F4F90 /* main.m */; };
+		0FDEE62418BD3CED009F4F90 /* RPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDEE62318BD3CED009F4F90 /* RPLAppDelegate.m */; };
+		0FDEE62718BD3CED009F4F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FDEE62518BD3CED009F4F90 /* Main.storyboard */; };
+		0FDEE62A18BD3CED009F4F90 /* RPLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDEE62918BD3CED009F4F90 /* RPLViewController.m */; };
+		0FDEE62C18BD3CED009F4F90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FDEE62B18BD3CED009F4F90 /* Images.xcassets */; };
+		0FDEE63318BD3CED009F4F90 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FDEE63218BD3CED009F4F90 /* XCTest.framework */; };
+		0FDEE63418BD3CED009F4F90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FDEE61318BD3CED009F4F90 /* Foundation.framework */; };
+		0FDEE63518BD3CED009F4F90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FDEE61718BD3CED009F4F90 /* UIKit.framework */; };
+		0FDEE63D18BD3CED009F4F90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FDEE63B18BD3CED009F4F90 /* InfoPlist.strings */; };
+		0FDEE63F18BD3CED009F4F90 /* Sorting_AlgorithmsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDEE63E18BD3CED009F4F90 /* Sorting_AlgorithmsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FDEE63618BD3CED009F4F90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FDEE60818BD3CED009F4F90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FDEE60F18BD3CED009F4F90;
+			remoteInfo = "Sorting Algorithms";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FDEE61018BD3CED009F4F90 /* Sorting Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sorting Algorithms.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FDEE61318BD3CED009F4F90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FDEE61518BD3CED009F4F90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0FDEE61718BD3CED009F4F90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0FDEE61B18BD3CED009F4F90 /* Sorting Algorithms-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sorting Algorithms-Info.plist"; sourceTree = "<group>"; };
+		0FDEE61D18BD3CED009F4F90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0FDEE61F18BD3CED009F4F90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FDEE62118BD3CED009F4F90 /* Sorting Algorithms-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sorting Algorithms-Prefix.pch"; sourceTree = "<group>"; };
+		0FDEE62218BD3CED009F4F90 /* RPLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPLAppDelegate.h; sourceTree = "<group>"; };
+		0FDEE62318BD3CED009F4F90 /* RPLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPLAppDelegate.m; sourceTree = "<group>"; };
+		0FDEE62618BD3CED009F4F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0FDEE62818BD3CED009F4F90 /* RPLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPLViewController.h; sourceTree = "<group>"; };
+		0FDEE62918BD3CED009F4F90 /* RPLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPLViewController.m; sourceTree = "<group>"; };
+		0FDEE62B18BD3CED009F4F90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0FDEE63118BD3CED009F4F90 /* Sorting AlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sorting AlgorithmsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FDEE63218BD3CED009F4F90 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0FDEE63A18BD3CED009F4F90 /* Sorting AlgorithmsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sorting AlgorithmsTests-Info.plist"; sourceTree = "<group>"; };
+		0FDEE63C18BD3CED009F4F90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0FDEE63E18BD3CED009F4F90 /* Sorting_AlgorithmsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sorting_AlgorithmsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FDEE60D18BD3CED009F4F90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FDEE61618BD3CED009F4F90 /* CoreGraphics.framework in Frameworks */,
+				0FDEE61818BD3CED009F4F90 /* UIKit.framework in Frameworks */,
+				0FDEE61418BD3CED009F4F90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FDEE62E18BD3CED009F4F90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FDEE63318BD3CED009F4F90 /* XCTest.framework in Frameworks */,
+				0FDEE63518BD3CED009F4F90 /* UIKit.framework in Frameworks */,
+				0FDEE63418BD3CED009F4F90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FDEE60718BD3CED009F4F90 = {
+			isa = PBXGroup;
+			children = (
+				0FDEE61918BD3CED009F4F90 /* Sorting Algorithms */,
+				0FDEE63818BD3CED009F4F90 /* Sorting AlgorithmsTests */,
+				0FDEE61218BD3CED009F4F90 /* Frameworks */,
+				0FDEE61118BD3CED009F4F90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FDEE61118BD3CED009F4F90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FDEE61018BD3CED009F4F90 /* Sorting Algorithms.app */,
+				0FDEE63118BD3CED009F4F90 /* Sorting AlgorithmsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FDEE61218BD3CED009F4F90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FDEE61318BD3CED009F4F90 /* Foundation.framework */,
+				0FDEE61518BD3CED009F4F90 /* CoreGraphics.framework */,
+				0FDEE61718BD3CED009F4F90 /* UIKit.framework */,
+				0FDEE63218BD3CED009F4F90 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FDEE61918BD3CED009F4F90 /* Sorting Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				0FDEE62218BD3CED009F4F90 /* RPLAppDelegate.h */,
+				0FDEE62318BD3CED009F4F90 /* RPLAppDelegate.m */,
+				0FDEE62518BD3CED009F4F90 /* Main.storyboard */,
+				0FDEE62818BD3CED009F4F90 /* RPLViewController.h */,
+				0FDEE62918BD3CED009F4F90 /* RPLViewController.m */,
+				0FDEE62B18BD3CED009F4F90 /* Images.xcassets */,
+				0FDEE61A18BD3CED009F4F90 /* Supporting Files */,
+			);
+			path = "Sorting Algorithms";
+			sourceTree = "<group>";
+		};
+		0FDEE61A18BD3CED009F4F90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FDEE61B18BD3CED009F4F90 /* Sorting Algorithms-Info.plist */,
+				0FDEE61C18BD3CED009F4F90 /* InfoPlist.strings */,
+				0FDEE61F18BD3CED009F4F90 /* main.m */,
+				0FDEE62118BD3CED009F4F90 /* Sorting Algorithms-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0FDEE63818BD3CED009F4F90 /* Sorting AlgorithmsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FDEE63E18BD3CED009F4F90 /* Sorting_AlgorithmsTests.m */,
+				0FDEE63918BD3CED009F4F90 /* Supporting Files */,
+			);
+			path = "Sorting AlgorithmsTests";
+			sourceTree = "<group>";
+		};
+		0FDEE63918BD3CED009F4F90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FDEE63A18BD3CED009F4F90 /* Sorting AlgorithmsTests-Info.plist */,
+				0FDEE63B18BD3CED009F4F90 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FDEE60F18BD3CED009F4F90 /* Sorting Algorithms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FDEE64218BD3CED009F4F90 /* Build configuration list for PBXNativeTarget "Sorting Algorithms" */;
+			buildPhases = (
+				0FDEE60C18BD3CED009F4F90 /* Sources */,
+				0FDEE60D18BD3CED009F4F90 /* Frameworks */,
+				0FDEE60E18BD3CED009F4F90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sorting Algorithms";
+			productName = "Sorting Algorithms";
+			productReference = 0FDEE61018BD3CED009F4F90 /* Sorting Algorithms.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0FDEE63018BD3CED009F4F90 /* Sorting AlgorithmsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FDEE64518BD3CED009F4F90 /* Build configuration list for PBXNativeTarget "Sorting AlgorithmsTests" */;
+			buildPhases = (
+				0FDEE62D18BD3CED009F4F90 /* Sources */,
+				0FDEE62E18BD3CED009F4F90 /* Frameworks */,
+				0FDEE62F18BD3CED009F4F90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FDEE63718BD3CED009F4F90 /* PBXTargetDependency */,
+			);
+			name = "Sorting AlgorithmsTests";
+			productName = "Sorting AlgorithmsTests";
+			productReference = 0FDEE63118BD3CED009F4F90 /* Sorting AlgorithmsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FDEE60818BD3CED009F4F90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RPL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Richard Lichkus";
+				TargetAttributes = {
+					0FDEE63018BD3CED009F4F90 = {
+						TestTargetID = 0FDEE60F18BD3CED009F4F90;
+					};
+				};
+			};
+			buildConfigurationList = 0FDEE60B18BD3CED009F4F90 /* Build configuration list for PBXProject "Sorting Algorithms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FDEE60718BD3CED009F4F90;
+			productRefGroup = 0FDEE61118BD3CED009F4F90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FDEE60F18BD3CED009F4F90 /* Sorting Algorithms */,
+				0FDEE63018BD3CED009F4F90 /* Sorting AlgorithmsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FDEE60E18BD3CED009F4F90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FDEE62C18BD3CED009F4F90 /* Images.xcassets in Resources */,
+				0FDEE61E18BD3CED009F4F90 /* InfoPlist.strings in Resources */,
+				0FDEE62718BD3CED009F4F90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FDEE62F18BD3CED009F4F90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FDEE63D18BD3CED009F4F90 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FDEE60C18BD3CED009F4F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FDEE62018BD3CED009F4F90 /* main.m in Sources */,
+				0FDEE62418BD3CED009F4F90 /* RPLAppDelegate.m in Sources */,
+				0FDEE62A18BD3CED009F4F90 /* RPLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FDEE62D18BD3CED009F4F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FDEE63F18BD3CED009F4F90 /* Sorting_AlgorithmsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FDEE63718BD3CED009F4F90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FDEE60F18BD3CED009F4F90 /* Sorting Algorithms */;
+			targetProxy = 0FDEE63618BD3CED009F4F90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0FDEE61C18BD3CED009F4F90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FDEE61D18BD3CED009F4F90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0FDEE62518BD3CED009F4F90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FDEE62618BD3CED009F4F90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0FDEE63B18BD3CED009F4F90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FDEE63C18BD3CED009F4F90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FDEE64018BD3CED009F4F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0FDEE64118BD3CED009F4F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FDEE64318BD3CED009F4F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sorting Algorithms/Sorting Algorithms-Prefix.pch";
+				INFOPLIST_FILE = "Sorting Algorithms/Sorting Algorithms-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0FDEE64418BD3CED009F4F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sorting Algorithms/Sorting Algorithms-Prefix.pch";
+				INFOPLIST_FILE = "Sorting Algorithms/Sorting Algorithms-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0FDEE64618BD3CED009F4F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sorting Algorithms.app/Sorting Algorithms";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sorting Algorithms/Sorting Algorithms-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sorting AlgorithmsTests/Sorting AlgorithmsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0FDEE64718BD3CED009F4F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sorting Algorithms.app/Sorting Algorithms";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sorting Algorithms/Sorting Algorithms-Prefix.pch";
+				INFOPLIST_FILE = "Sorting AlgorithmsTests/Sorting AlgorithmsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FDEE60B18BD3CED009F4F90 /* Build configuration list for PBXProject "Sorting Algorithms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FDEE64018BD3CED009F4F90 /* Debug */,
+				0FDEE64118BD3CED009F4F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FDEE64218BD3CED009F4F90 /* Build configuration list for PBXNativeTarget "Sorting Algorithms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FDEE64318BD3CED009F4F90 /* Debug */,
+				0FDEE64418BD3CED009F4F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0FDEE64518BD3CED009F4F90 /* Build configuration list for PBXNativeTarget "Sorting AlgorithmsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FDEE64618BD3CED009F4F90 /* Debug */,
+				0FDEE64718BD3CED009F4F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FDEE60818BD3CED009F4F90 /* Project object */;
+}
